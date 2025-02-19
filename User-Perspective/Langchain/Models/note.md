@@ -1,8 +1,4 @@
 
-<!-- OPENAI_API_KsdwqdEY  , ye vhi env me same hona chhciye ya  -->
-<!-- openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable -->
-<!--  ye load_dotenv() method hai ye yahi nam find karta hai env me , same for anthrophic  -->
-
 
 
 <!-- temperature is the parameter that controls the randomness of a language model outputs if affects how creative or deterministic the response are -->

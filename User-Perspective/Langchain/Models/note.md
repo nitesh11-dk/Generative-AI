@@ -1,5 +1,5 @@
 
-<!-- OPENAI_API_KEY  , ye vhi env me same hona chhciye ya  -->
+<!-- OPENAI_API_KsdwqdEY  , ye vhi env me same hona chhciye ya  -->
 <!-- openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable -->
 <!--  ye load_dotenv() method hai ye yahi nam find karta hai env me , same for anthrophic  -->
 

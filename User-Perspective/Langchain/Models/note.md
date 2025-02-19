@@ -16,3 +16,8 @@ tokens ko hum words avi ke  liye man sakte hai , but vo shirf words nahi hote ha
 
 
 <!--  gemini ka api free hai , yak time tak it is working fine  -->
+
+## OPen source model 
+
+Where to find them ,
+Huggingface 

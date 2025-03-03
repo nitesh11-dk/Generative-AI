@@ -75,3 +75,6 @@ Agar **custom name hai (`GEMINI_API_KEY`)**, toh **manually pass karo**.
 
 ## StreamLit 
  - to run go in .venv where streamlit is installed and use the strreamlit commands
+
+ ## Prompts 
+ 

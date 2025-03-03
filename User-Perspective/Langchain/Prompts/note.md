@@ -71,3 +71,7 @@ if __name__ == "__main__":
 ### **💡 Best Practice**
 Agar **default (`GOOGLE_API_KEY`)** kaam kar raha hai, toh **directly use kar lo**.  
 Agar **custom name hai (`GEMINI_API_KEY`)**, toh **manually pass karo**.  
+
+
+## StreamLit 
+ - to run go in .venv where streamlit is installed and use the strreamlit commands

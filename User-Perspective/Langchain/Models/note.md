@@ -7,6 +7,9 @@
 - Controls the randomness of a language model's output.
 - Lower values (0 to 0.3): More deterministic and predictable.
 - Higher values (0.7 to 1.5): More random, creative, and diverse.
+- Temperature is the value that control the output value based on input 
+- If temperature is = 0 ,  then output will same for me same input , it will not change 
+- IF temperature is > 0 , then output will different form the same input , it wil change
 
 ## Max Completion Tokens
 - Defines the maximum number of tokens the model can generate in a response.

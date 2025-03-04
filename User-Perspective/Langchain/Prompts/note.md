@@ -77,4 +77,14 @@ Agar **custom name hai (`GEMINI_API_KEY`)**, toh **manually pass karo**.
  - to run go in .venv where streamlit is installed and use the strreamlit commands
 
  ## Prompts 
- 
+ ### Why Use PromptTemplate Over f-Strings?  
+
+A **PromptTemplate** in LangChain is a structured way to create prompts dynamically by inserting variables into a predefined template. Instead of hardcoding prompts, **PromptTemplate** allows you to define placeholders that can be filled in at runtime with different inputs.  
+
+This makes it **reusable, flexible, and easy to manage**, especially when working with dynamic user inputs or automated workflows.  
+
+#### Benefits of Using PromptTemplate Over f-Strings:  
+
+1. **Default Validation** – Ensures that all required variables are provided before formatting the prompt.  
+2. **Reusability** – Allows prompts to be easily reused across different applications without manual modifications.  
+3. **LangChain Ecosystem** – Seamlessly integrates with LangChain’s tooling, such as memory, chains, and agents, making prompt management more efficient.

@@ -88,3 +88,8 @@ This makes it **reusable, flexible, and easy to manage**, especially when workin
 1. **Default Validation** – Ensures that all required variables are provided before formatting the prompt.  
 2. **Reusability** – Allows prompts to be easily reused across different applications without manual modifications.  
 3. **LangChain Ecosystem** – Seamlessly integrates with LangChain’s tooling, such as memory, chains, and agents, making prompt management more efficient.
+
+## Messages
+ - system messages 
+ - human message
+ - ai message 

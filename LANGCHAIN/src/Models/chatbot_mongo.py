@@ -17,7 +17,7 @@ collection = db["chat_history"]
 
 model = ChatGoogleGenerativeAI(model="gemini-1.5-pro")
 
-USER_ID = "nitesh123"
+USER_ID = "nitesh1234"
 
 
 def get_chat_history(user_id):

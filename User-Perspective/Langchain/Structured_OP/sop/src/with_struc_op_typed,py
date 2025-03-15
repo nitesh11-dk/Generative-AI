@@ -1,0 +1,21 @@
+from langchain_google_genai import ChatGoogleGenerativeAI
+from dotenv import load_dotenv
+from typing import TypedDict
+
+load_dotenv()
+
+model = ChatGoogleGenerativeAI(model='gemini-1.5-pro')
+
+# Schema
+class Review(TypedDict):
+    summary: str
+    sentiment: str  # Fixed typo: 'senitement' → 'sentiment'
+
+# Correct method
+struc_model = model.bind(response_model=Review)
+
+res = struc_model.invoke('''  
+                   Stylish design meets impressive durability — a perfect blend of fashion and function. Ideal for everyday wear with a touch of elegance.
+                   ''')
+
+print(res)

@@ -7,5 +7,6 @@ requires-python = ">=3.13"
 dependencies = [
     "langchain-core>=0.3.45",
     "langchain-google-genai>=2.1.0",
+    "pymongo>=4.11.2",
     "python-dotenv>=1.0.1",
 ]

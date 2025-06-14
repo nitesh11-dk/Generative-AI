@@ -1,4 +1,4 @@
-# LangChain Models Mind Map
+# LangChain Components
 
 ## LangChain
 LangChain is a framework for developing applications powered by large language models (LLMs). It provides several components to interact with AI models efficiently.
@@ -32,3 +32,27 @@ AI agents have:
 - **Tools** to perform actions based on prompts and external data sources.
 
 ---
+
+### Types of Memory in Conversational AI
+
+1. **ConversationBufferMemory**
+
+   * Stores a transcript of recent messages.
+   * Best suited for short chats.
+   * Can grow large quickly, leading to high token usage.
+
+2. **ConversationBufferWindowMemory**
+
+   * Maintains only the last *N* interactions.
+   * Helps control memory size and reduce token consumption.
+
+3. **Summarizer-Based Memory**
+
+   * Summarizes older parts of the conversation periodically.
+   * Keeps a condensed and efficient memory footprint.
+
+4. **Custom Memory**
+
+   * Designed for advanced use cases.
+   * Can store specific state information, such as user preferences or key facts.
+
